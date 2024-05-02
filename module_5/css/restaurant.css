@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #16419f;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -11,30 +11,30 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #f597e7;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+  width: 50px;
+  height: 100px;
+  margin: 20px 5px 2px 0;
 }
 
 .navbar-brand {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
+  font-family: 'cursive', Verdana, sans-serif;
+  color: #16419f;
+  font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
+  text-shadow: 0px 0px 0px #222;
+  margin-top: 8px;
+  margin-bottom: 1px;
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -54,14 +54,17 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #16419f;
   text-align: center;
+  border-radius: 25px;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #94b2f4;
+  height: inherit;
+  animation: backwards;
 }
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 #phone {
@@ -72,13 +75,13 @@ body {
   padding-bottom: 0;
 }
 #phone div { /* We Deliver */
-  color: #557c3e;
+  color: #000000;
   text-align: right;
   padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #16419f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -91,7 +94,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #343434;
   border-top: 0;
 }
 .panel-footer div.row {
