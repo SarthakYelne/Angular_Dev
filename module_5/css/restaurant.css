@@ -11,23 +11,30 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #f597e7;
+  background-color: #f7d5f2;
   border-radius: 0;
-  border: 0;
+  border: 10px;
 }
 
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 50px;
-  height: 100px;
-  margin: 20px 5px 2px 0;
+  width: 80px;
+  height: 105px;
+  margin: 30px 5px 2px 0;
+}
+
+#cafe-name {
+  background: url('../images/Name.png') no-repeat;
+  width: 166px;
+  height: 102px;
+  /* margin: 2px 10px 0px 5px; */
 }
 
 .navbar-brand {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'cursive', Verdana, sans-serif;
+  font-family: cursive, sans-serif;
   color: #16419f;
   font-size: 1.8em;
   text-transform: uppercase;
@@ -38,7 +45,7 @@ body {
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 .navbar-brand p { /* Kosher cert */
   color: #000;
@@ -59,9 +66,7 @@ body {
   border-radius: 25px;
 }
 #nav-list a:hover {
-  background: #94b2f4;
-  height: inherit;
-  animation: backwards;
+  box-shadow: 0 1px 5px 2px #2d2929;
 }
 #nav-list a span {
   font-size: 1.9em;
@@ -107,7 +112,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #426130;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -127,9 +132,16 @@ a[ui-sref="admin.auth"] {
   /* Header */
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 37px;
     margin: 5px 5px 5px 0;
+  }
+
+  /* Header */
+  #cafe-name {
+    background: url('../images/Name-medium.png') no-repeat;
+    width: 65px;
+    height: 40px;
   }
   /* End Header */
 }
