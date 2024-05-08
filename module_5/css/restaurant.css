@@ -99,7 +99,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #343434;
+  background-color: #343434d4;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -112,7 +112,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #426130;
+  color: #eee25f;
   font-size: .8em;
   line-height: 1.8;
 }

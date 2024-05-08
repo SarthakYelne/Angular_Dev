@@ -58,7 +58,7 @@
               </li>
               <li id="phone" class="hidden-xs">
                 <a href="tel:+917276006234">
-                  <span>+91 17276006234</span></a><div>We Also Deliver</div>
+                  <span>+91 17276006234</span></a><div>*We Also Deliver</div>
               </li>
             </ul><!-- #nav-list -->
           </div><!-- .collapse .navbar-collapse -->
@@ -72,15 +72,16 @@
         +917276006234
       </a>
     </div>
-    <div id="xs-deliver" class="text-center visible-xs">We Also Deliver</div>
+    <div id="xs-deliver" class="text-center visible-xs">*We Also Deliver</div>
 
     <ui-view>
       <div class="text-center initial-loading">
         <h2>Loading Site...</h2>
-     </ui-view>
+      </div>
+    </ui-view>
 
     <footer class="panel-footer">
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
           <section id="hours" class="col-sm-4">
             <span>Hours:</span><br>
@@ -90,16 +91,15 @@
           <section id="address" class="col-sm-4">
             <span>Address:</span><br>
              Block 17, Fluff Artisan Cafe,<br>
-
              JP Chambers, Wing 1, S Ambazari Rd <br>
-
              Mate Square, Madhav Nagar, <br>
-
              Nagpur, Maharashtra 440010<br>
-            <p>Delivery area within Nagpur, Can Order from Zomato Swiggy...</p>
+            <p> *Delivery area within Nagpur,<br>
+               Can Order from Zomato Swiggy</p>
             <hr class="visible-xs">
           </section>
           <section id="testimonials" class="col-sm-4">
+            <h4>About:</h4>
             <p>"The best Cafe in town I've been to! And that's saying a lot, since I've been to many!"</p>
             <p>"Amazing food! Speciality Coffee, Cookie Dough and Shaved Ice"</p>
           </section>
@@ -123,6 +123,7 @@
     <script src="src/common/common.module.js"></script>
     <script src="src/common/loading/loading.component.js"></script>
     <script src="src/common/loading/loading.interceptor.js"></script>
+    <script src="src/common/menu.service.js"></script>
 
     <!-- Public Module -->
     <script src="src/public/public.module.js"></script>

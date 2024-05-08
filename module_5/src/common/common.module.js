@@ -2,6 +2,7 @@
 "use strict";
 
 angular.module('common', [])
+.common('APIpath', 'https://ychaikin-course5.herokouap.com')
 .config(config);
 
 config.$inject = ['$httpProvider'];
