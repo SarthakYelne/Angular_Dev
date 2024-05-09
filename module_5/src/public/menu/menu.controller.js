@@ -1,14 +1,14 @@
 (function () {
     "use strict";
-
+    
     angular.module('public')
     .controller('MenuController', MenuController);
-
-    MenuController.$inject = ['MenuCategories'];
-    function MenuController(MenuCategories) {
-        var $ctrl = this;
-
-        $ctrl.MenuCategories = MenuCategories;
+    
+    MenuController.$inject = ['menuCategories'];
+    function MenuController(menuCategories) {
+      var $ctrl = this;
+      $ctrl.menuCategories = menuCategories;
     }
-
-})();
+    
+    
+    })();
