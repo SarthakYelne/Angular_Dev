@@ -1,0 +1,505 @@
+{
+  "CD": {
+    "category": {
+      "id": 81,
+      "name": "Cookie Dough",
+      "short_name": "CD",
+      "special_instructions": ""
+    },
+    "menu_items": [
+      {
+        "description": "Our boe-slo cookie dough slab A plain bed of cookie dough to go with any topping you desire",
+        "large_portion_name": "quart",
+        "name": "Baby Steps Cookie Dough",
+        "price_large": 80,
+        "price_small": 80,
+        "short_name": "A1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A choo cip cookie dough als which satisfies your sweet footh Our classio special cookie slob",
+        "large_portion_name": "quart",
+        "name": "Fluffed Up Cookle Dough",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "A2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A classic Oreo cookies monster filled with Oreo chunks having all the cookies and cream favour everyone loves",
+        "large_portion_name": "quart",
+        "name": "OverCast Cookie Dough",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "A3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A double choco cookies dough slob, every bite Siled with Imesistable chocolatey goodness",
+        "large_portion_name": "quart",
+        "name": "Holy Hall Cookie Dough",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "A4",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A redvelvet classic cookie slob Blended with luscious cream cheese giving not just tasty but a visual punch",
+        "large_portion_name": "quart",
+        "name": "Blush Mush Cookie Dough",
+        "price_large": 140,
+        "price_small": 140,
+        "short_name": "A5",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A pistachio rosewater cookie slab topped with caramel dizzle, Our pastel dream cookie dough slab.",
+        "large_portion_name": "quart",
+        "name": "Paradise Cookie Dough",
+        "price_large": 140,
+        "price_small": 140,
+        "short_name": "A6",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A dark choco and coffee cookie slab with dark choco chuncks mode to awaken your senses.",
+        "large_portion_name": "quart",
+        "name": "Bittersweet Cookie Dough",
+        "price_large": 150,
+        "price_small": 150,
+        "short_name": "A7",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "SI": {
+    "category": {
+      "id": 82,
+      "name": "Shaved Ice",
+      "short_name": "SI",
+      "special_instructions": ""
+    },
+    "menu_items": [
+      {
+        "description": "",
+        "large_portion_name": "quart",
+        "name": "Paradise Dough Shake",
+        "price_large": 160,
+        "price_small": 160,
+        "short_name": "B1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "",
+        "large_portion_name": "quart",
+        "name": "Fluffed Up Cookle Dough",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "B2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "",
+        "large_portion_name": "quart",
+        "name": "OverCast Dough Shake",
+        "price_large": 150,
+        "price_small": 150,
+        "short_name": "B3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "",
+        "large_portion_name": "quart",
+        "name": "Holy HailDough Shake",
+        "price_large": 150,
+        "price_small": 150,
+        "short_name": "B4",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "SC": {
+    "category": {
+      "id": 83,
+      "name": "Specialty Coffee",
+      "short_name": "SC",
+      "special_instructions": ""
+    },
+    "menu_items": [
+      {
+        "description": "A fusion between cream and espresso which taste exactly like bailey's (without alcohol)",
+        "large_portion_name": "quart",
+        "name": "Baileys",
+        "price_large": 130,
+        "price_small": 100,
+        "short_name": "C1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A perfect milky & creamy blend of espresso with hint of Vanilla.",
+        "large_portion_name": "quart",
+        "name": "Classic Cold Coffee Frappe",
+        "price_large": 130,
+        "price_small": 100,
+        "short_name": "C2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A perfect milky & creamy blend of espresso with Hazelnut paste.",
+        "large_portion_name": "quart",
+        "name": "Hazelnut Frappe",
+        "price_large": 140,
+        "price_small": 100,
+        "short_name": "C3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A perfect milky & creamy blend of espresso with espresso with Dark Chocolate.",
+        "large_portion_name": "quart",
+        "name": "Dark Chocolate Frappe",
+        "price_large": 140,
+        "price_small": 100,
+        "short_name": "C4",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A perfect milky & creamy blend of espresso with espresso with strawberry cheesecake.",
+        "large_portion_name": "quart",
+        "name": "Strawberry Cheesecake Frappe",
+        "price_large": 150,
+        "price_small": 100,
+        "short_name": "C5",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Espresso filtered and dropped over tonic water with ice.",
+        "large_portion_name": "quart",
+        "name": "Espresso Tonic",
+        "price_large": 150,
+        "price_small": 100,
+        "short_name": "C6",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A latte wth the goodness of Nutella.",
+        "large_portion_name": "quart",
+        "name": "Nutella latte",
+        "price_large": 150,
+        "price_small": 100,
+        "short_name": "C6",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A mocha with the goodness of sea salt.",
+        "large_portion_name": "quart",
+        "name": "Sea Salt Mocha",
+        "price_large": 150,
+        "price_small": 100,
+        "short_name": "C6",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "A mocha with the goodness of mint syrup & chocolate.",
+        "large_portion_name": "quart",
+        "name": "Mint Chocolate Mocha",
+        "price_large": 150,
+        "price_small": 100,
+        "short_name": "C6",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "CDS": {
+    "category": {
+      "id": 84,
+      "name": "Cookie Dough Shakes",
+      "short_name": "CDS",
+      "special_instructions": ""
+    },
+    "menu_items": [
+      {
+        "description": "Mango and Pineapple based",
+        "large_portion_name": "quart",
+        "name": "Happy Shades",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "",
+        "large_portion_name": "quart",
+        "name": "Cookie & Cream",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Fresh Strawberry based",
+        "large_portion_name": "quart",
+        "name": "Sour Heart",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Mint Chocolate",
+        "large_portion_name": "quart",
+        "name": "Best of the best",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C4",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Nothing can be dark than this",
+        "large_portion_name": "quart",
+        "name": "Dark Chocolate",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C5",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Fresh coconut water + Malai + Milk based",
+        "large_portion_name": "quart",
+        "name": "Coconut Shave",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "C6",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "B": {
+    "category": {
+      "id": 85,
+      "name": "Breakfast",
+      "short_name": "B",
+      "special_instructions": "The most important meal of the day, and for a good reason."
+    },
+    "menu_items": [
+      {
+        "description": "Classic Half fry of 2 eggs served with your choice of bread.",
+        "large_portion_name": "quart",
+        "name": "Sunny Side Up",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "D1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Has fluffy texture made of 2 eggs with salt, pepper & butter served along with mashed potato.",
+        "large_portion_name": "quart",
+        "name": "French Omelette",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "D2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "2 eggs omelette with indian masala, onion, tomato, green chilli served with mashed potato.",
+        "large_portion_name": "quart",
+        "name": "Indian Masala Omelette",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "D3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "2 eggs buttery mix veggie scranbled eggs served with mashed potatos.",
+        "large_portion_name": "quart",
+        "name": "Veggie Scrambled Eggs",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "D4",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "C": {
+    "category": {
+      "id": 86,
+      "name": "Croissants",
+      "short_name": "C",
+      "special_instructions": "Croissants are named for their historical crescent shape, The dough is layered with butter, rolled folded several times into a thin sheet, in a technique called laminating."
+    },
+    "menu_items": [
+      {
+        "description": "Buttery flaky rispy on the outside soft on the inside Croissant goes great with coffee.",
+        "large_portion_name": "quart",
+        "name": "Butter Croissant",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "E1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Buttery flaky crispy croissant filled with sweet cream cheese.",
+        "large_portion_name": "quart",
+        "name": "Cream Cheese Croissant",
+        "price_large": 150,
+        "price_small": 150,
+        "short_name": "E2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Buttery flaky crispy croisant filled with Nutella.",
+        "large_portion_name": "quart",
+        "name": "Nutella Croissant",
+        "price_large": 150,
+        "price_small": 150,
+        "short_name": "E3",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "S": {
+    "category": {
+      "id": 87,
+      "name": "Sandwiches",
+      "short_name": "S",
+      "special_instructions": "The Sandwich is named after its supposed inventor, John Montahu, 4th Earl of Sandwich."
+    },
+    "menu_items": [
+      {
+        "description": "Choice of your bread stuffed with Sweet corn with Veg mayonaise & cheese.",
+        "large_portion_name": "quart",
+        "name": "Cheese Corn",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "F1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with Mushroom tossed with garlic and fresh herbs made in a creamy sauce.",
+        "large_portion_name": "quart",
+        "name": "Creamy Mushroon",
+        "price_large": 140,
+        "price_small": 140,
+        "short_name": "F2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with Panner tossed in peri peri sauce.",
+        "large_portion_name": "quart",
+        "name": "Peri Peri Panner",
+        "price_large": 140,
+        "price_small": 140,
+        "short_name": "F3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with 2 Chicken/Pork bacon strips, Fried egg & cheese.",
+        "large_portion_name": "quart",
+        "name": "Bacon Egg & Cheese",
+        "price_large": 150,
+        "price_small": 180,
+        "short_name": "F4",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with 2 Chicken/Pork Ham strips, Caramelized onoions & cheese.",
+        "large_portion_name": "quart",
+        "name": "Ham & Cheese",
+        "price_large": 150,
+        "price_small": 180,
+        "short_name": "F5",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with 2 Chicken/Pork bacon strips lettuce & tomato.",
+        "large_portion_name": "quart",
+        "name": "BLT",
+        "price_large": 150,
+        "price_small": 180,
+        "short_name": "F6",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with 2 Chicken Khemma, onion & cheese.",
+        "large_portion_name": "quart",
+        "name": "Chicken Khemma",
+        "price_large": 150,
+        "price_small": 180,
+        "short_name": "F7",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with Chicken tossed with garlic and fresh herbs made in a creamy sauce.",
+        "large_portion_name": "quart",
+        "name": "Creamy Garlic Chicken",
+        "price_large": 160,
+        "price_small": 160,
+        "short_name": "F7",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Choice of your bread stuffed with Chicken tossed in peri peri sauce.",
+        "large_portion_name": "quart",
+        "name": "Peri Peri Chicken",
+        "price_large": 160,
+        "price_small": 160,
+        "short_name": "F7",
+        "small_portion_name": "pint"
+      }
+    ]
+  },
+  "CO": {
+    "category": {
+      "id": 88,
+      "name": "Coffee",
+      "short_name": "CO",
+      "special_instructions": ""
+    },
+    "menu_items": [
+      {
+        "description": "Rich, Full-bodied espresso with hot water",
+        "large_portion_name": "quart",
+        "name": "Americano Hot/Iced",
+        "price_large": 100,
+        "price_small": 100,
+        "short_name": "G1",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Dark, rich espresso lies in under a smoothed and streched layer",
+        "large_portion_name": "quart",
+        "name": "Cappuccino Hot/Iced",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "G2",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Expertly steamed milk poured over Ristretto shots of espresso",
+        "large_portion_name": "quart",
+        "name": "Flat white Hot/Iced",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "G3",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "Our dark, rich espresso balanced with steamed with bittersweet mocha sauce and steamed milk.",
+        "large_portion_name": "quart",
+        "name": "Latte Hot/Iced",
+        "price_large": 120,
+        "price_small": 120,
+        "short_name": "G4",
+        "small_portion_name": "pint"
+      },
+      {
+        "description": "We combine our rich, full--bodied espresso with bittersweet mocha sauce and steamed milk",
+        "large_portion_name": "quart",
+        "name": "Mocha Hot/Iced",
+        "price_large": 130,
+        "price_small": 130,
+        "short_name": "G5",
+        "small_portion_name": "pint"
+      }
+    ]
+  }
+}

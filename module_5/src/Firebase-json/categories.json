@@ -1,0 +1,45 @@
+[
+  {
+    "id": 81,
+    "name": "Cookie Dough",
+    "short_name": "CD",
+    "special_instructions": ""
+  },
+  {
+    "id": 82,
+    "name": "Shaved Ice",
+    "short_name": "SI",
+    "special_instructions": ""
+  },
+  {
+    "id": 83,
+    "name": "Specialty Coffee",
+    "short_name": "SC",
+    "special_instructions": ""
+  },
+  {
+    "id": 84,
+    "name": "Cookie Dough Shakes",
+    "short_name": "CDS",
+    "special_instructions": ""
+  },
+  {
+    "id": 85,
+    "name": "Breakfast",
+    "short_name": "B",
+    "special_instructions": "The most important meal of the day, and for a good reason. *Choice of bread Butter Toast or Butter Croissant - 70/-"
+  },
+  {
+    "id": 86,
+    "name": "Croissants",
+    "short_name": "C",
+    "special_instructions": "Croissants are named for their historical crescent shape, The dough is layered with butter, rolled folded several times into a thin sheet, in a technique called laminating."
+  },
+  {
+    "id": 87,
+    "name": "Sandwiches",
+    "short_name": "S",
+    "special_instructions": "The Sandwich is named after its supposed inventor, John Montahu, 4th Earl of Sandwich."
+  },
+  { "id": 88, "name": "Coffee", "short_name": "CO", "special_instructions": "" }
+]
