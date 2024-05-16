@@ -1,28 +1,43 @@
-(function () {
-  "use strict";
+(function() {
+"use strict";
 
-  angular.module("admin").service("CurrentUserService", CurrentUserService);
+angular.module('admin')
+.service('CurrentUserService', CurrentUserService);
 
-  function CurrentUserService() {
-    var service = this;
-    var _username = "";
-    var _accessToken = "";
+/**
+ * Used to store and track information about the currently logged in user.
+ * This is intended to be injected any time we need some user metadata
+ * or to find out if the user is authenticated.
+ **/
+function CurrentUserService() {
+  var service = this;
+  var _username = '';
+  var _accessToken = '';
 
-    service.saveToken = function (username, token) {
-      _username = username;
-      _accessToken = token;
-    };
+  /**
+   * Load the current user with username and token
+   */
+  service.saveToken = function(username, token) {
+    _username = username;
+    _accessToken = token;
+  };
 
-    service.getUsername = function () {
-      return _username;
-    };
 
-    service.getAccessToken = function () {
-      return _accessToken;
-    };
+  service.getUsername = function() {
+    return _username;
+  };
 
-    service.isAuthenticated = function () {
-      return _accessToken !== "";
-    };
-  }
+
+  service.getAccessToken = function() {
+    return _accessToken;
+  };
+
+
+  service.isAuthenticated = function() {
+    return _accessToken !== '';
+  };
+
+}
+
+
 })();
