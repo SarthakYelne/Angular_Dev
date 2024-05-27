@@ -20,7 +20,7 @@
       // Contains state that all authenticated states inherit
       .state('admin.auth', {
         url: '',
-        templateUrl: 'src/admin/admin-auth.html'
+        templateUrl: 'src/admin/admin-auth/admin-auth.html'
       })
       .state('admin.login', {
         url: '/login',
