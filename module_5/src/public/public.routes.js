@@ -43,7 +43,11 @@ function routeConfig ($stateProvider) {
     })
     .state('public.about', {
       url: '/about',
-      templateUrl: 'src/common/about/about.html'
+      templateUrl: 'src/public/about/about.html'
+    })
+    .state('public.franchise', {
+      url: '/about',
+      templateUrl: 'src/public/franchise/franchise.html'
     });
 }
 })();
